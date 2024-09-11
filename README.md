@@ -13,5 +13,15 @@
 
 ![image](https://github.com/user-attachments/assets/d9ce65f9-e00a-440c-aab5-cf300e58ef7b)
 
+## Validation
 
+#### One way to validate the solution is by comparing consecutive frames to ensure consistency in the number of people detected. In an accurate method or model, the number of people identified in two successive frames should remain relatively stable, without significant fluctuations.
+
+## Alternative Solutions
+
+#### Another idea I considered was converting the side-view footage to a bird's-eye view. However, this would require precise knowledge of the coordinates of the region of interest (the bridge or road). Implementing this would likely involve deep learning-based segmentation techniques to accurately identify the area. Since the assessment focused on using traditional computer vision techniques, this approach may not be suitable. Additionally, perspective warping poses the risk of losing valuable information, as parts of the image may be cropped during the transformation.
+
+#### There are also density-based methods to estimate crowd sizes in frames. However, these techniques typically rely on deep learning models that must be fine-tuned to the specific use case using images from a similar distribution.
+
+#### I had also considered using the SORT algorithm (https://github.com/abewley/sort) for object tracking. However, I was unable to configure and implement it on my local machine due to time constraints.
 
