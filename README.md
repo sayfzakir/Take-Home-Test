@@ -8,5 +8,10 @@
 
 #### (Actual detection screenshots included, people are detected and marked with a green circle.)
 
-![image.png](attachment:6aaac527-a444-40b6-870e-3491637d6f87.png)
+
+![image](https://github.com/user-attachments/assets/f5b6c2ca-a23c-4ffe-9c36-0d035f190548)
+
+![image](https://github.com/user-attachments/assets/d9ce65f9-e00a-440c-aab5-cf300e58ef7b)
+
+
 
